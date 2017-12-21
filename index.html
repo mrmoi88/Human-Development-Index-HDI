@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Human Development Index (HDI)</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Human Development Index (HDI)">
+  <meta name="author" content="WQD170026-Saeid Joneidi Yekta, WQD170034-Khashayar Namsehchi, WQD170025-Moi Chee Hui, WQD170053-Minhajul Abedin Forhad">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Human Development Index (HDI)</h1>
+    <h2>WQD7001-Principles of Data Science</h2>
+    <p>WQD170026-Saeid Joneidi Yekta, WQD170034-Khashayar Namsehchi, WQD170025-Moi Chee Hui, WQD170053-Minhajul Abedin Forhad<br/></p>
+  </hgroup>
+    <a href="https://github.com/mrmoi88/WQD7001-Principles of Data Science/zipball/gh-pages" class="example">
+     Download
+    </a>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Objective</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>To understand and compare the average of countries&#39; health expenditure versus the average citizen&#39;s life expectancy</p>
+
+<h2>Motivation</h2>
+
+<p>Each country has their fair share of medical expenditures that are given to their people and, different countries have different costs that the people has to bear. Medical expenditures are one of the necessity in one person&#39;s life, and almost everyone has to spend part of their earnings to pay medical bills in order to survive. However, some countries provide full coverage or impose minimum charges in the government hospitals. We are here to find out how much the nation has to spend on the healthcare.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Questions</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>By comparing the regions, which one is effectively using their health expenditure and gain better life expectancy? </li>
+<li>In each year, how much difference is the efficiency of each region&#39;s health expenditure and life expectancy? </li>
+<li>How is the progress of the life expectancy of each country? </li>
+</ol>
+
+<h2>Dataset</h2>
+
+<ol>
+<li>Has 6 attributes - Country, Region, Year, Population, Life Expectancy, Health Expenditure </li>
+<li>Has 3030 rows </li>
+<li>Has 175 countries, years dated from 1995 until 2011 </li>
+<li>Has 7 regions </li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Process</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Found dataset from Kaggle which matches our targeted domain of healthcare </li>
+<li>Studied the dataset for possible objectives and questions that we can come out with </li>
+<li>Did data preprocessing of the dataset </li>
+<li>Took sample of the dataset to test in a selected plot model - Google Chart, Histogram, Term plot, Pie Chart </li>
+<li>Google Chart - Health Expenditure vs, Life Expectancy of Selected Year (for question 1)</li>
+<li>Histogram - Incrementation (by yearly) of Population, Life Expectancy, Health Expenditure of Selected Country (for question 2)</li>
+<li>Term plot - Health expenditure of Selected country one by one or compare countries up to 5 selection</li>
+<li>Pie Chart - Life Expectancy of Selected Country (for question 3)</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Visualization</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Shiny App - 
+<a href="https://khnamsehchi.shinyapps.io/HumanDevelopmentIndex_HDI/">https://khnamsehchi.shinyapps.io/HumanDevelopmentIndex_HDI/</a></p>
+
+<p>Documentation - 
+<a href="https://github.com/Khnamsehchi/Human-Development-Index">https://github.com/Khnamsehchi/Human-Development-Index</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Objective'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Questions'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Process'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Visualization'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
